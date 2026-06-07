@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday My Mistu ❤️</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<div class="container">
+
+    <h1 class="title">🎂 Happy Birthday My Mistu 🎂</h1>
+
+    <p class="subtitle">
+        Every second brings us closer to your special moment ❤️
+    </p>
+
+    <div class="countdown-container">
+
+        <div class="time-box">
+            <span id="days">00</span>
+            <small>Days</small>
+        </div>
+
+        <div class="time-box">
+            <span id="hours">00</span>
+            <small>Hours</small>
+        </div>
+
+        <div class="time-box">
+            <span id="minutes">00</span>
+            <small>Minutes</small>
+        </div>
+
+        <div class="time-box">
+            <span id="seconds">00</span>
+            <small>Seconds</small>
+        </div>
+
+    </div>
+
+    <button id="surpriseBtn" disabled>
+        🔒 Surprise Locked
+    </button>
+
+    <!-- Best Memories Section -->
+
+<div class="memories-section">
+
+    <h2 class="memory-title">
+        ❤️ Our Best Memories ❤️
+    </h2>
+
+    <div class="memory-gallery">
+
+        <div class="memory-card">
+            <img src="/static/images/photo1.jpeg" alt="Memory 1">
+        </div>
+
+        <div class="memory-card">
+            <img src="/static/images/photo2.jpeg" alt="Memory 2">
+        </div>
+
+        <div class="memory-card">
+            <img src="/static/images/photo3.jpeg" alt="Memory 3">
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Full Screen Image Viewer -->
+
+<div id="imageModal" class="image-modal">
+
+    <span id="closeImage">&times;</span>
+
+    <img id="modalImage">
+
+</div>
+
+</div>
+
+<!-- Letter Modal -->
+
+<div id="letterModal" class="modal">
+
+    <div class="letter">
+
+        <span id="closeBtn">&times;</span>
+
+        <h2>💖 To My Dearest Love 💖</h2>
+
+        <p class="letter-text">
+            Shubho Jonmodin Amar Mistu ❤️
+            <br><br>
+
+Aajker ei bishesh dine tomake janai amar shobcheye boro bhalobasha ebong onek onek shubhechha.
+
+Tumi amar jiboner shobcheye shundor upohar. Tomar hashi amar mon bhalo kore dey, tomar kotha amar shanti, aar tomar bhalobasha amar shokti.
+
+Tomar sathe katano protita muhurto amar kache ekta shundor smriti. Tumi amar jibone eshe shobkichu bodle diyecho. Tomar sathe thakle ami nijeke purotai "home" feel kori.
+
+Ami chai tomar jiboner protita din hok khushi, safollo, bhalobasha aar shundor muhurte bhora.
+
+Ami tomar upor onek gorbito, aar tomar sathe aro onek shundor bochor katate chai.
+
+Tomake ami koto ta bhalobashi seta hoyto kokhono shobdo diye bojhate parbo na.
+
+Shudhu etuku bolbo...
+
+Ami tomake onek onek bhalobashi ❤️
+
+Happy 20th Birthday Amar Rajkumari 👑✨
+
+</p>
+ <br><br>
+            ❤️ Tomar, Pocoman ❤️
+        </p>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
